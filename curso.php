@@ -25,6 +25,13 @@
             color: black;
         }
 
+        h1 {
+            font-family: 'Segoe UI';
+            font-size: 35px;
+            text-align: center;
+            color: midnightblue;
+        }
+
         h3 {
             font-family: 'Segoe UI';
             font-size: 20px;
