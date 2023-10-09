@@ -13,14 +13,14 @@
         }
 
         th {
-            font-family: 'Georgia';
+            font-family: 'Segoe UI';
             text-decoration: solid;
             font-size: 22px;
             color: darkblue;
         }
 
         td {
-            font-family: 'Georgia';
+            font-family: 'Segoe UI';
             font-size: 20px;
             color: black;
         }
