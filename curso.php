@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Calificaciones del semestre 📃</title>
+    <title>Que onda 📃</title>
     <!--===== Codigo CSS =======-->
     <style>
         table,th,td {
