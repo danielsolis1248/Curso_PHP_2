@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Que onda 📃</title>
+    <title>Calificaciones de la Conalep II 📃</title>
     <!--===== Codigo CSS =======-->
     <style>
         table,th,td {
