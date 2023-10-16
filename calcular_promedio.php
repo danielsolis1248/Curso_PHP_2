@@ -1,16 +1,17 @@
 <?php
-$español = $_POST['esp'] ?? null;
-$matematicas = $_POST['mat'] ?? null;
-$ciencias = $_POST['cien'] ?? null;
-$historia = $_POST['his'] ?? null;
-$ingles = $_POST['ing'] ?? null;
-$artes = $_POST['art'] ?? null;
-$computo = $_POST['comp'] ?? null;
+$CRCSP = $_POST['crcsp'] ?? null;
+$COFE = $_POST['cofe'] ?? null;
+$MOCA = $_POST['moca'] ?? null;
+$CENG = $_POST['ceng'] ?? null;
+$PNCP = $_POST['pncp'] ?? null;
+$FEM_III = $_POST['fem-3'] ?? null;
+$AFEO = $_POST['afeo'] ?? null;
+$MCL = $_POST['mcl'] ?? null;
 
-$promedio = ($español + $matematicas + $ciencias + $historia + $ingles + $artes + $computo) / 7;
+$promedio = ($CRCSP + $COFE + $MOCA + $CENG + $PNCP + $FEM_III + $AFEO + $MCL) / 8;
 $promedio_redondeado = bcdiv($promedio, '1', 2);
 
-if (empty($español && $matematicas && $ciencias && $historia && $ingles && $artes && $computo)) {
+if (empty($CRCSP + $COFE + $MOCA + $CENG + $PNCP + $FEM_III + $AFEO + $MCL)) {
     echo "<h3>Los campos estan vacios, ingresa las calificaciones de tus materias</h3>";
 } elseif ($promedio_redondeado <= 6.9) {
     echo '<h3>Reprobaste 👎🏼tu calificacion es ' . $promedio_redondeado . '</h3>';

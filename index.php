@@ -16,26 +16,29 @@
         <h3>Ingresa las calificaciones para calcular el promedio ⬇</h3>
 
         <form method="post" action="">
-            <label for="español">Español</label> 
-            <input type="text" name="esp" required=""><br>
+            <label for="crcsp">CRCSP</label> 
+            <input type="text" name="crcsp" required=""><br>
 
-            <label for="matematicas">Matematicas</label> 
-            <input type="text" name="mat"required=""><br>
+            <label for="cofe">COFE</label> 
+            <input type="text" name="cofe"required=""><br>
 
-            <label for="ciencias nat">Ciencias naturales</label> 
-            <input type="text" name="cien" required=""><br>
+            <label for="moca">MOCA</label> 
+            <input type="text" name="moca" required=""><br>
 
-            <label for="historia">Historia</label> 
-            <input type="text" name="his"required=""><br>
+            <label for="ceng">CENG</label> 
+            <input type="text" name="ceng"required=""><br>
             
-            <label for="ingles">Ingles</label> 
-            <input type="text" name="ing" required=""><br>
+            <label for="pncp">PNCP</label> 
+            <input type="text" name="pncp" required=""><br>
             
-            <label for="artes">Artes</label> 
-            <input type="text" name="art" required=""><br>
+            <label for="fem-3">FEM III</label> 
+            <input type="text" name="fem-3" required=""><br>
             
-            <label for="computacion">Computacion</label> 
-            <input type="text" name="comp" required=""><br>
+            <label for="afeo">AFEO</label> 
+            <input type="text" name="afeo" required=""><br>
+
+            <label for="mcl">MCL</label> 
+            <input type="text" name="mcl" required=""><br>
 
             <button type="submit" name="calcular" value="calcular" class="button button1">Calcular promedio</button>
         </form>
@@ -53,38 +56,40 @@
                 <th>Puntuacion</th>
             </tr>
             <tr>
-                <td>Español 📙</td>
-                <td><?php echo $español = $_POST['esp'] ?? null; ?></td>
+                <td>CRCSP 📙</td>
+                <td><?php echo $CRCSP = $_POST['crcsp'] ?? null; ?></td>
             </tr>
             <tr>
-                <td>Matematicas 🧮</td>
-                <td><?php echo $matematicas = $_POST['mat'] ?? null; ?></td>
+                <td>COFE 🧮</td>
+                <td><?php echo $COFE = $_POST['cofe'] ?? null; ?></td>
             </tr>
             <tr>
-                <td>Ciencias Naturales 🧪</td>
-                <td><?php echo $ciencias = $_POST['cien'] ?? null; ?></td>
+                <td>MOCA 🧪</td>
+                <td><?php echo $MOCA = $_POST['moca'] ?? null; ?></td>
             </tr>
             <tr>
-                <td>Historia 🎩</td>
-                <td><?php echo $historia = $_POST['his'] ?? null; ?></td>
+                <td>CENG 🧪</td>
+                <td><?php echo $CENG = $_POST['ceng'] ?? null; ?></td>
             </tr>
             <tr>
-                <td>Ingles 🌎</td>
-                <td><?php echo  $ingles = $_POST['ing'] ?? null; ?></td>
+                <td>PNCP 🎩</td>
+                <td><?php echo $PNCP = $_POST['pncp'] ?? null; ?></td>
             </tr>
             <tr>
-                <td>Artes 🎨</td>
-                <td><?php echo $artes = $_POST['art'] ?? null; ?></td>
+                <td>FEM_III 🌎</td>
+                <td><?php echo $FEM_III = $_POST['fem-3'] ?? null; ?></td>
             </tr>
             <tr>
-                <td>Computación 💻</td>
-                <td><?php echo $computo = $_POST['comp'] ?? null; ?></td>
+                <td>AFEO 🎨</td>
+                <td><?php echo $AFEO = $_POST['afeo'] ?? null; ?></td>
+            </tr>
+            <tr>
+                <td>MCL 💻</td>
+                <td><?php echo $MCL = $_POST['mcl'] ?? null; ?></td>
             </tr>
         </table>
     </div>
     <br>
-
-    
 
 </body>
 
