@@ -13,9 +13,9 @@
         <h1>Calificaciones de la Conalep II 📃</h1>
         <hr>
 
-        <h3>Ingresa las calificaciones para calcular el promedio ⬇</h3>
-
         <form method="post" action="">
+            <h4>Ingresa las calificaciones para calcular el promedio</h4>
+            <hr>
             <label for="crcsp">CRCSP</label> 
             <input type="text" name="crcsp" required=""><br>
 

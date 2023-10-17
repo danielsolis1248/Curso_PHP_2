@@ -40,19 +40,32 @@
         color: #0a4175;
     }
 
-    form {
-        background-color: #F0FFF0;
-        border-collapse: separate;
+    h4 {
+        font-family: 'Franklin Gothic Medium';
+        font-size: 22px;
+        text-align: center;
+        color: #ffffff;
         width: fit-content;
         height: fit-content;
         margin: 12px 12px;
         padding: 12px 12px;
-        border: solid #006400;
-        border-width: 3px;
+        background-color: #9ac0a2;
+    }
+
+    form {
+        background-color: #ffffff;
+        width: fit-content;
+        height: fit-content;
+        margin: 12px 12px;
+        padding: 12px 12px;
+        border: solid #9ac0a2;
+        border-width: 2px;
+        border-radius: 5px;
         font-family: 'Franklin Gothic Medium';
         font-size: 19px;
         line-height: 1.45;
-        color:#006400;
+        color:#526368;
+        box-shadow: 10px 5px 5px black;
     }
 
     input {
@@ -60,6 +73,7 @@
         margin: 5px 0 10px;
         font-size: 1rem;
         color: #656880;
+        background-color: #ececec;
       }
 
     button {
