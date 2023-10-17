@@ -48,7 +48,7 @@
     include 'calcular_promedio.php';
     ?>
 
-    <div id="tabla_cal">
+    <div class="tabla_cal">
         <h2>Tabla de los puntajes de cada materia</h2>
         <table>
             <tr>
