@@ -4,6 +4,7 @@
         border: 1px solid #0a4175;
         border-collapse: collapse;
         padding: 3px;
+
         
     }
 
@@ -66,12 +67,23 @@
         font-size: 19px;
         line-height: 1.45;
         color:#414141;
-        box-shadow: 0px 3px 7px 0px black; 
+        box-shadow: -2px 2px 5px 0px #448151; 
     }
 
-    .tabla_cal {
-        width: fit-content;
-        height: fit-content;
+    .flex-container {
+        display: flex;
+        background-color: #ffffff;
+        justify-content: space-around;
+    }
+      
+    .flex-container > div {
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 2px;
+        padding: 2px 20px;
+        font-size: 30px;
     }
 
     input {
@@ -83,28 +95,26 @@
       }
 
     button {
-        background-color: #4CAF50;
-        /* Green */
-        border: none;
-        color: white;
-        padding: 10px 15px;
+        padding: 10px 12px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+        font-family: 'Segoe UI';
+        font-weight: bold;
         margin: 12px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        border-radius: 4px;
+        border-radius: 7px;
     }
 
     .button1 {
         background-color: #f6fff5;
         color: black;
-        border: 2px solid #4CAF50;
+        border: 2px solid #448151;
     }
 
     .button1:hover {
-        background-color: #4CAF50;
+        background-color: #448151;
         color: white;
     }
