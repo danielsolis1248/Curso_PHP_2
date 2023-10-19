@@ -42,11 +42,12 @@
                 <input type="text" name="mcl" required=""><br>
 
                 <button type="submit" name="calcular" value="calcular" class="button button1">Calcular promedio</button>
+                <?php
+                include 'calcular_promedio.php';
+                ?> 
             </form>
-        </div>
 
-        <div class="calificaciones">
-            <div class="tabla-cal">
+            <div class="calificaciones">
                 <table>
                     <h2>Tabla de los puntajes de cada materia</h2>
                     <tr>
@@ -89,11 +90,6 @@
             </div>
         </div>
     </div>
-
-    <?php
-    include 'calcular_promedio.php';
-    ?>
-
+    
 </body>
-
 </html>
