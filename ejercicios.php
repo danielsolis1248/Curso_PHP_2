@@ -1,17 +1,24 @@
 <?php
 
-$base = 2;
-$exp = 5;
+$nombres = ['Victor', 'Iris', 'Elizabeth', 'Joel'];
 
-$resultado = 1;
-$i = 1;
-
-while ($i <= $exp) {
-    $resultado = $resultado * $base;
-    $i++;
+foreach ($nombres as $indice => $nombre) {
+    echo $nombre . " se encontraba en el indice $indice <br>";
 }
 
-echo "El valor de $base elevado a la $exp es: $resultado";
+
+// $base = 5;
+// $exp = 4;
+
+// $resultado = 1;
+
+// for ($i = 0; $i <= $exp; $i++) { 
+//     $resultado = $resultado * $base;
+// }
+
+// echo "El valor de $base elevado a la $exp es: $resultado";
+
+
 // echo match($a) {
 //     1 => 'Domingo',
 //     2 => 'Lunes',
